@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity
 
     public void onButtonPressed(View view) {
 
-        Snackbar.make(view, "Solar calculations in progress...", Snackbar.LENGTH_LONG)
+        Snackbar.make(view, "Solar calculations on progress...", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show();
 
 
