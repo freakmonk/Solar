@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.freakmonk.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <include
+    android:id="@+id/mainw"
+    android:visibility="invisible"
+        layout="@layout/page_main" />
+
+    <include
+        android:id="@+id/mainwnews"
+        android:visibility="invisible"
+        layout="@layout/page_news" />
+
+    <include
+        android:id="@+id/pgph"
+        android:visibility="invisible"
+        layout="@layout/page_photos" />
+
+    <include
+        android:id="@+id/pgsl"
+        android:visibility="visible"
+        layout="@layout/page_solar" />
+
+</android.support.constraint.ConstraintLayout>
